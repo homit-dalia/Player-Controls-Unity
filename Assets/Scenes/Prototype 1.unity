@@ -140,10 +140,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12a95d1b5f5e8d549a40352c8d13b729, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
-  turnSpeed: 25
-  horizontalInput: 0
-  verticalInput: 0
+  horizontalInput: 50
+  verticalInput: 20
 --- !u!54 &145410095
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -405,8 +403,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12a95d1b5f5e8d549a40352c8d13b729, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 12.5
-  turnSpeed: 25
   horizontalInput: 0
   verticalInput: 0
 --- !u!54 &337887403
@@ -619,8 +615,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12a95d1b5f5e8d549a40352c8d13b729, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
-  turnSpeed: 25
   horizontalInput: 0
   verticalInput: 0
 --- !u!54 &487910491
@@ -754,8 +748,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12a95d1b5f5e8d549a40352c8d13b729, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
-  turnSpeed: 25
   horizontalInput: 0
   verticalInput: 0
 --- !u!1 &534669902
@@ -2148,7 +2140,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5924013827781158164, guid: cdcb19fde9e8cba40b7bff849baf2c1b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0000019073486
+      value: 1.29
       objectReference: {fileID: 0}
     - target: {fileID: 5924013827781158164, guid: cdcb19fde9e8cba40b7bff849baf2c1b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2924,8 +2916,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12a95d1b5f5e8d549a40352c8d13b729, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
-  turnSpeed: 25
   horizontalInput: 0
   verticalInput: 0
 --- !u!1 &1644063778
@@ -3462,7 +3452,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5924013827781158164, guid: cdcb19fde9e8cba40b7bff849baf2c1b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0000038146973
+      value: 0.94
       objectReference: {fileID: 0}
     - target: {fileID: 5924013827781158164, guid: cdcb19fde9e8cba40b7bff849baf2c1b, type: 3}
       propertyPath: m_LocalPosition.z
